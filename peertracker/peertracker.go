@@ -7,8 +7,8 @@ import (
 
 	"github.com/benbjohnson/clock"
 	pq "github.com/ipfs/go-ipfs-pq"
-	"github.com/ipfs/go-peertaskqueue/peertask"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/mikelsr/go-libp2p/core/peer"
+	"github.com/mikelsr/go-peertaskqueue/peertask"
 )
 
 var clockInstance = clock.New()

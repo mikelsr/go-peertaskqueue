@@ -5,9 +5,9 @@ import (
 	"sync"
 
 	pq "github.com/ipfs/go-ipfs-pq"
-	"github.com/ipfs/go-peertaskqueue/peertask"
-	"github.com/ipfs/go-peertaskqueue/peertracker"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/mikelsr/go-libp2p/core/peer"
+	"github.com/mikelsr/go-peertaskqueue/peertask"
+	"github.com/mikelsr/go-peertaskqueue/peertracker"
 )
 
 type peerTaskQueueEvent int

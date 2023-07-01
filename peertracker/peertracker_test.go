@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/ipfs/go-peertaskqueue/peertask"
-	"github.com/ipfs/go-peertaskqueue/testutil"
+	"github.com/mikelsr/go-peertaskqueue/peertask"
+	"github.com/mikelsr/go-peertaskqueue/testutil"
 )
 
 const testMaxActiveWorkPerPeer = 100
